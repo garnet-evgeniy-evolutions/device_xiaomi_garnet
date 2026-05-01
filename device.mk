@@ -177,7 +177,7 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.fingerprint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.fingerprint.xml
 
 # GameBar Performance Overlay
-$(call inherit-product, packages/apps/GameBar/gamebar.mk)
+#$(call inherit-product, packages/apps/GameBar/gamebar.mk)
 
 # Graphics
 PRODUCT_COPY_FILES += \
@@ -471,4 +471,4 @@ PRODUCT_COPY_FILES += \
 $(call inherit-product, vendor/xiaomi/garnet/garnet-vendor.mk)
 
 # Vendor MiuiCamera
-$(call inherit-product-if-exists, device/xiaomi/garnet-miuicamera/device.mk)
+$(call inherit-product, device/xiaomi/garnet-miuicamera/device.mk)

@@ -95,7 +95,7 @@ BOARD_KERNEL_PAGESIZE := 4096
 BOARD_KERNEL_IMAGE_NAME := Image
 
 TARGET_KERNEL_ADDITIONAL_FLAGS := TARGET_PRODUCT=garnet
-TARGET_KERNEL_SOURCE := kernel/xiaomi/sm7435
+TARGET_KERNEL_SOURCE := kernel/xiaomi/garnet
 TARGET_KERNEL_CONFIG := \
     gki_defconfig \
     vendor/parrot_GKI.config \
